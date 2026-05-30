@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "readiness_assessment",
+  "description": "Output of intake scoring.",
+  "type": "object",
+  "properties": {
+    "readinessScore": { "type": "integer", "minimum": 0, "maximum": 100 },
+    "reentryPhase": { "type": "string", "enum": ["Renewal", "Foundation", "Purpose"] },
+    "domains": { "type": "object" },
+    "flags": { "type": "array", "items": { "type": "string" } }
+  }
+}

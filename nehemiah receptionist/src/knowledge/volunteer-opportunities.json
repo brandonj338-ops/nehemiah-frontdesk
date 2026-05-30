@@ -1,0 +1,17 @@
+{
+  "roles": [
+    { "id": "mentor", "name": "Relational Mentors", "desc": "Provide trauma-informed mentorship for youth and adults, offering guidance and consistent support.", "commitment": "2-4 hrs/week", "trainingRequired": true },
+    { "id": "navigator", "name": "System Navigators", "desc": "Help with transportation, appointments, and coordination, keeping individuals organized and on track.", "commitment": "Flexible", "trainingRequired": true },
+    { "id": "coach", "name": "Marketplace Coaches", "desc": "Teach job readiness skills, resume building, and financial literacy.", "commitment": "2-3 hrs/week", "trainingRequired": false },
+    { "id": "hospitality", "name": "Hospitality & Care Team", "desc": "Support meals, events, and resource distribution while creating a welcoming environment.", "commitment": "Event-based", "trainingRequired": false },
+    { "id": "admin", "name": "Pro-Bono & Administrative Support", "desc": "Provide professional services and administrative/operations support.", "commitment": "Flexible / remote OK", "trainingRequired": false },
+    { "id": "media", "name": "Media & Production Team", "desc": "Support the mission through video, photography, design, and content creation.", "commitment": "Project-based", "trainingRequired": false }
+  ],
+  "onboardingSteps": [
+    "Complete volunteer interest form / phone sign-up",
+    "Brief phone or in-person conversation with the volunteer coordinator",
+    "Background check (for mentor and navigator roles)",
+    "Orientation + role-specific training",
+    "Get matched and scheduled"
+  ]
+}

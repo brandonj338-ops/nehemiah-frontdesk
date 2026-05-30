@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "intake",
+  "description": "Run full intake for a returning citizen. POST /api/intake",
+  "type": "object",
+  "required": ["caller"],
+  "properties": {
+    "caller": {
+      "type": "object",
+      "required": ["fullName"],
+      "properties": {
+        "fullName": { "type": "string" },
+        "phone": { "type": "string" },
+        "email": { "type": "string" },
+        "dob": { "type": "string", "description": "YYYY-MM-DD" },
+        "docNumber": { "type": "string", "description": "Department of Corrections number" },
+        "emergencyContact": { "type": "string" },
+        "preferredContact": { "type": "string", "enum": ["phone", "email", "sms"] },
+        "language": { "type": "string", "enum": ["en", "es"], "default": "en" }
+      }
+    },
+    "assessment": {
+      "type": "object",
+      "description": "Each domain 0 (acute need) to 4 (stable).",
+      "properties": {
+        "housing": { "type": "integer", "minimum": 0, "maximum": 4 },
+        "employment": { "type": "integer", "minimum": 0, "maximum": 4 },
+        "support": { "type": "integer", "minimum": 0, "maximum": 4 },
+        "emotional": { "type": "integer", "minimum": 0, "maximum": 4 },
+        "spiritual": { "type": "integer", "minimum": 0, "maximum": 4 }
+      }
+    },
+    "categories": { "type": "array", "items": { "type": "string" }, "description": "Optional resource categories to force-include." }
+  }
+}

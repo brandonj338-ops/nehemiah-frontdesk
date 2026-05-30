@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "webhook_action",
+  "description": "Single webhook for the AI agent. POST /api/webhook/claude",
+  "type": "object",
+  "required": ["action"],
+  "properties": {
+    "action": { "type": "string", "enum": ["detect","handle","ask","intake","schedule","message","volunteer","donor"] },
+    "payload": { "type": "object", "description": "Body matching the target endpoint's schema." }
+  }
+}

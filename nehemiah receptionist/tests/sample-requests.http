@@ -1,0 +1,54 @@
+### Health
+GET http://localhost:3000/health
+
+### Detect caller type + route
+POST http://localhost:3000/api/handle
+Content-Type: application/json
+x-api-key: change-me-to-a-long-random-string
+
+{ "text": "I just got out last week and I have nowhere to stay" }
+
+### General question
+POST http://localhost:3000/api/receptionist
+Content-Type: application/json
+
+{ "question": "What are your office hours?" }
+
+### Full intake
+POST http://localhost:3000/api/intake
+Content-Type: application/json
+
+{
+  "caller": { "fullName": "Marcus Lee", "phone": "+12025550123", "email": "marcus@example.com", "docNumber": "DC123456", "preferredContact": "phone", "language": "en" },
+  "assessment": { "housing": 0, "employment": 1, "support": 1, "emotional": 2, "spiritual": 2 }
+}
+
+### Schedule appointment (demo: Tre's calendar)
+POST http://localhost:3000/api/appointment
+Content-Type: application/json
+
+{ "name": "Marcus Lee", "email": "marcus@example.com", "phone": "+12025550123", "purpose": "Intake appointment", "startISO": "2026-06-02T14:00:00-04:00", "endISO": "2026-06-02T14:30:00-04:00" }
+
+### Volunteer sign-up
+POST http://localhost:3000/api/volunteer
+Content-Type: application/json
+
+{ "name": "Jane Doe", "email": "jane@example.com", "roleId": "mentor", "availability": "Saturday mornings" }
+
+### Donor / partner
+POST http://localhost:3000/api/donor
+Content-Type: application/json
+
+{ "name": "Acme Church", "email": "give@acme.org", "partner": true, "requestMeeting": true }
+
+### Take message / crisis alert
+POST http://localhost:3000/api/message
+Content-Type: application/json
+
+{ "name": "Caller", "phone": "+12025550123", "message": "Caller in distress, needs follow-up", "priority": "crisis" }
+
+### Single webhook for the AI agent
+POST http://localhost:3000/api/webhook/claude
+Content-Type: application/json
+
+{ "action": "intake", "payload": { "caller": { "fullName": "Test Caller" }, "assessment": { "housing": 1 } } }

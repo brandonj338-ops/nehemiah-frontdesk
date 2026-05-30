@@ -1,0 +1,8 @@
+{
+  "note": "PLACEHOLDER success stories for the demo. Replace with real, consented stories before public use.",
+  "stories": [
+    { "id": "story-001", "name": "Marcus", "summary": "After 8 years incarcerated, Marcus entered the Renewal phase with a mentor. Within 90 days he secured stable housing and a warehouse job. Today he mentors others in the program." },
+    { "id": "story-002", "name": "James", "summary": "Battling addiction for over a decade, James worked through the Crossroads curriculum. With accountability and faith community, he reached one year of sobriety and reconnected with his children." },
+    { "id": "story-003", "name": "Andre", "summary": "A justice-involved young man, Andre was paired with a relational mentor and marketplace coach. He finished his GED and started an apprenticeship through a partner employer." }
+  ]
+}

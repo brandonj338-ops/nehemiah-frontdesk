@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "donor_partner",
+  "description": "Donor or partner inquiry. POST /api/donor",
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "phone": { "type": "string" },
+    "email": { "type": "string" },
+    "partner": { "type": "boolean", "description": "true = partner/org, false = individual donor" },
+    "interest": { "type": "string" },
+    "requestMeeting": { "type": "boolean" },
+    "notes": { "type": "string" }
+  }
+}

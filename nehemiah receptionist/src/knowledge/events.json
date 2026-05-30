@@ -1,0 +1,9 @@
+{
+  "note": "PLACEHOLDER events for the demo. Replace with Google Calendar sync later.",
+  "events": [
+    { "id": "evt-001", "title": "Volunteer Orientation", "date": "2026-06-06", "time": "10:00 AM", "location": "4224 Fort Dupont St. SE, Washington, DC 20020", "audience": "New volunteers", "rsvp": true },
+    { "id": "evt-002", "title": "Community Reentry Resource Night", "date": "2026-06-12", "time": "6:00 PM", "location": "4224 Fort Dupont St. SE, Washington, DC 20020", "audience": "Returning citizens & families", "rsvp": false },
+    { "id": "evt-003", "title": "Donor & Partner Breakfast", "date": "2026-06-20", "time": "8:30 AM", "location": "4224 Fort Dupont St. SE, Washington, DC 20020", "audience": "Donors & partners", "rsvp": true },
+    { "id": "evt-004", "title": "How People Change - New Cohort Starts", "date": "2026-07-01", "time": "5:30 PM", "location": "4224 Fort Dupont St. SE, Washington, DC 20020", "audience": "Program participants", "rsvp": true }
+  ]
+}

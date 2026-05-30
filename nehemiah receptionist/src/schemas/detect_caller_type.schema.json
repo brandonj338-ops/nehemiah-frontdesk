@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "detect_caller_type",
+  "description": "Classify the caller and get the next route. POST /api/handle",
+  "type": "object",
+  "required": ["text"],
+  "properties": {
+    "text": { "type": "string", "description": "What the caller said." },
+    "language": { "type": "string", "enum": ["en", "es"], "default": "en" },
+    "hints": {
+      "type": "object",
+      "properties": { "callerType": { "type": "string", "enum": ["returning_citizen","volunteer","donor","partner","staff","crisis","wrong_number","general"] } }
+    }
+  }
+}

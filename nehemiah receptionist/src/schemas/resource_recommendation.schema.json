@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "resource_recommendation",
+  "description": "Recommend resources by category and/or flags.",
+  "type": "object",
+  "properties": {
+    "categories": { "type": "array", "items": { "type": "string", "enum": ["housing","employment","counseling","transportation","documentation","mentoring","faith"] } },
+    "flags": { "type": "array", "items": { "type": "string" } }
+  }
+}

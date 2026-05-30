@@ -1,0 +1,61 @@
+{
+  "organization": {
+    "name": "Project Nehemiah",
+    "tagline": "Rebuilding Lives Through Christ-Centered Care",
+    "mission": "A multi-phase Christ-centered ministry in Washington, D.C. helping individuals move from instability toward lasting growth through mentoring, spiritual formation, and practical support.",
+    "address": "4224 Fort Dupont St. SE, Washington, DC 20020",
+    "email": "info@project-nehemiah.com",
+    "website": "https://project-nehemiah.com",
+    "officeHours": {
+      "note": "PLACEHOLDER - confirm real hours with Nehemiah staff before go-live.",
+      "monday": "9:00 AM - 5:00 PM",
+      "tuesday": "9:00 AM - 5:00 PM",
+      "wednesday": "9:00 AM - 5:00 PM",
+      "thursday": "9:00 AM - 5:00 PM",
+      "friday": "9:00 AM - 4:00 PM",
+      "saturday": "Closed",
+      "sunday": "Closed",
+      "timezone": "America/New_York"
+    }
+  },
+  "whoWeServe": [
+    { "group": "Returning Citizens", "desc": "Individuals returning home from incarceration, supported with structured mentoring, guidance, and a clear path toward long-term stability." },
+    { "group": "Individuals in Recovery", "desc": "People overcoming addiction through accountability, community, and long-term support." },
+    { "group": "People Experiencing Housing Instability", "desc": "Walking alongside those facing housing barriers toward stability." },
+    { "group": "Justice-Involved Youth", "desc": "Mentoring young people through life challenges with support, structure, and positive community." }
+  ],
+  "programPathway": {
+    "description": "Project Nehemiah is not a collection of services. It is a structured pathway that supports transformation over time. Most participants commit to a 6- to 12-month challenge alongside others.",
+    "phases": [
+      { "name": "Renewal", "focus": "Mentoring, connection, and early rebuilding support." },
+      { "name": "Foundation", "focus": "Spiritual readiness, emotional stability, and planning for what comes next." },
+      { "name": "Purpose", "focus": "Long-term growth, community integration, and sustained direction." }
+    ],
+    "coreDomains": ["Spiritual", "Mental", "Physical", "Emotional"]
+  },
+  "curricula": [
+    { "name": "How People Change", "desc": "Helps participants understand the motivations behind their actions and shift unhealthy patterns toward a deeper love for God and others." },
+    { "name": "The Crossroads", "desc": "A biblical framework for navigating addiction and renewal, guided by a biblical counselor." },
+    { "name": "Instrument in the Redeemer's Hands", "desc": "Helps participants pursue lasting transformation and grow in awareness, responsibility, and relational impact." }
+  ],
+  "distinctives": [
+    "Christ-centered transformation",
+    "Long-term relational care",
+    "Multi-phase pathway",
+    "Whole-person support",
+    "Strong community partnerships"
+  ],
+  "giving": {
+    "donateUrl": "https://project-nehemiah.com/donate",
+    "capitalCampaign": "Project Nehemiah is building toward long-term sustainability through strategic growth, community partnerships, and future initiatives like the Nehemiah Cafe.",
+    "capitalCampaignUrl": "https://project-nehemiah.com/capital-campaign"
+  },
+  "faqs": [
+    { "q": "Where are you located?", "a": "We're at 4224 Fort Dupont St. SE, Washington, DC 20020." },
+    { "q": "What are your hours?", "a": "Our office is generally open Monday through Friday, 9 AM to 5 PM Eastern. (Confirm exact hours with staff.)" },
+    { "q": "What do you do?", "a": "Project Nehemiah is a Christ-centered reentry ministry helping returning citizens, people in recovery, those facing housing instability, and justice-involved youth move toward lasting stability through mentoring, spiritual formation, and practical support." },
+    { "q": "How do I join the program?", "a": "I can take your information and have a case manager reach out, or schedule an intake appointment for you right now." },
+    { "q": "How can I help / volunteer?", "a": "We have several volunteer roles - mentors, system navigators, marketplace coaches, hospitality, administrative support, and media. I can sign you up and have our team follow up." },
+    { "q": "How do I donate?", "a": "You can give at project-nehemiah.com/donate, or I can have a team member contact you about partnership and giving." }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "crisis_alert",
+  "description": "Crisis response payload (returned by /api/handle when crisis detected; log via /api/message with priority=crisis).",
+  "type": "object",
+  "properties": {
+    "severity": { "type": "string", "enum": ["medium", "high"] },
+    "grounding": { "type": "string" },
+    "resources": { "type": "object" },
+    "alertStaff": { "type": "boolean" }
+  }
+}

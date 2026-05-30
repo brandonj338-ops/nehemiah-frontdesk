@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "volunteer_signup",
+  "description": "Sign up a volunteer. POST /api/volunteer",
+  "type": "object",
+  "required": ["name"],
+  "properties": {
+    "name": { "type": "string" },
+    "phone": { "type": "string" },
+    "email": { "type": "string" },
+    "roleId": { "type": "string", "enum": ["mentor","navigator","coach","hospitality","admin","media"] },
+    "interest": { "type": "string" },
+    "availability": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

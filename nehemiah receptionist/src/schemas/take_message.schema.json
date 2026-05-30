@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "take_message",
+  "description": "Take a message / route caller / send crisis alert. POST /api/message",
+  "type": "object",
+  "required": ["message"],
+  "properties": {
+    "name": { "type": "string" },
+    "phone": { "type": "string" },
+    "email": { "type": "string" },
+    "routeTo": { "type": "string", "description": "Who/what team the message is for." },
+    "callerType": { "type": "string" },
+    "priority": { "type": "string", "enum": ["normal", "crisis"], "default": "normal" },
+    "message": { "type": "string" }
+  }
+}

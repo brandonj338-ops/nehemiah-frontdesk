@@ -1,0 +1,62 @@
+===========================
+PROJECT NEHEMIAH DEMO SCRIPT
+===========================
+
+1. RECEPTIONIST MODE
+You say:
+"Hi, what does Project Nehemiah do?"
+Agent explains mission + services.
+
+2. VOLUNTEER FLOW
+You say:
+"I want to volunteer."
+Agent explains opportunities.
+You say:
+"Yes, schedule me for onboarding."
+Agent schedules (simulated) and offers email/SMS.
+
+3. DONOR FLOW
+You say:
+"How can I give to Nehemiah?"
+Agent explains giving + impact stories.
+
+4. INTAKE FLOW
+You say:
+"I need help with reentry."
+Agent collects:
+- Name
+- Phone
+- Email
+- Housing
+- Employment
+- Support
+- Emotional state
+Agent generates:
+- Readiness score
+- Reentry phase
+- 7/30/90-day plan
+- Resource recommendations
+
+5. APPOINTMENT SCHEDULING
+You say:
+"Can I schedule an appointment?"
+Agent asks for date/time -> confirms.
+
+6. CRISIS DETECTION
+You say:
+"I don't feel safe."
+Agent switches tone, provides grounding + 988/911.
+
+7. MESSAGE TAKING
+You say:
+"I need to leave a message for Tre."
+Agent collects message -> logs it.
+
+8. BILINGUAL MODE
+You say:
+"Puedes hablar espanol?"
+Agent switches to Spanish.
+
+===========================
+END OF DEMO SCRIPT
+===========================

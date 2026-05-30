@@ -1,0 +1,29 @@
+{
+  "note": "Resource directory used by the Resource Navigator. PLACEHOLDER contacts - confirm/replace with Nehemiah's real partner list.",
+  "categories": {
+    "housing": [
+      { "name": "Project Nehemiah Reentry Housing Support", "type": "internal", "desc": "Transitional housing guidance and referrals for returning citizens.", "contact": "info@project-nehemiah.com" },
+      { "name": "DC Department of Human Services - Shelter Hotline", "type": "external", "desc": "Emergency shelter and housing placement in Washington, DC.", "contact": "(202) 399-7093" }
+    ],
+    "employment": [
+      { "name": "Marketplace Coaches (Job Readiness)", "type": "internal", "desc": "Resume building, interview prep, and financial literacy.", "contact": "info@project-nehemiah.com" },
+      { "name": "DC Infrastructure Academy / DOES", "type": "external", "desc": "Free job training and workforce development for DC residents.", "contact": "https://does.dc.gov" }
+    ],
+    "counseling": [
+      { "name": "Biblical Counseling (Crossroads)", "type": "internal", "desc": "Faith-based counseling for addiction and life patterns.", "contact": "info@project-nehemiah.com" },
+      { "name": "DC Behavioral Health - Access Helpline", "type": "external", "desc": "24/7 mental health and substance use support.", "contact": "1-888-793-4357" }
+    ],
+    "transportation": [
+      { "name": "System Navigators", "type": "internal", "desc": "Help coordinating rides to appointments and interviews.", "contact": "info@project-nehemiah.com" }
+    ],
+    "documentation": [
+      { "name": "ID / Documentation Assistance", "type": "internal", "desc": "Help replacing IDs, Social Security cards, and birth certificates.", "contact": "info@project-nehemiah.com" }
+    ],
+    "mentoring": [
+      { "name": "Relational Mentors", "type": "internal", "desc": "One-on-one trauma-informed mentorship.", "contact": "info@project-nehemiah.com" }
+    ],
+    "faith": [
+      { "name": "Spiritual Formation & Discipleship", "type": "internal", "desc": "How People Change and Instrument in the Redeemer's Hands curricula, plus church community.", "contact": "info@project-nehemiah.com" }
+    ]
+  }
+}

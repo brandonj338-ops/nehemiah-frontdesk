@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "reentry_plan",
+  "description": "Personalized 7/30/90-day plan (output of intake).",
+  "type": "object",
+  "properties": {
+    "sevenDay": { "type": "array", "items": { "type": "string" } },
+    "thirtyDay": { "type": "array", "items": { "type": "string" } },
+    "ninetyDay": { "type": "array", "items": { "type": "string" } }
+  }
+}

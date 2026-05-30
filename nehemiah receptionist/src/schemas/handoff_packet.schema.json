@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "handoff_packet",
+  "description": "Case Manager Handoff Packet (output of /api/intake).",
+  "type": "object",
+  "properties": {
+    "packetId": { "type": "string" },
+    "createdAt": { "type": "string" },
+    "callerType": { "type": "string" },
+    "caller": { "type": "object" },
+    "readinessScore": { "type": "integer" },
+    "reentryPhase": { "type": "string" },
+    "phaseFocus": { "type": "string" },
+    "domains": { "type": "object" },
+    "plan": { "type": "object" },
+    "resourceRecommendations": { "type": "object" },
+    "flags": { "type": "array", "items": { "type": "string" } },
+    "appointment": { "type": ["object", "null"] },
+    "summary": { "type": "string" },
+    "status": { "type": "string" }
+  }
+}
