@@ -8,6 +8,7 @@ const appointment = require('../controllers/appointment.controller');
 const message = require('../controllers/message.controller');
 const engagement = require('../controllers/engagement.controller');
 const webhook = require('../controllers/webhook.controller');
+const vapiTool = require('../controllers/vapiTool.controller');
 const vapi = require('../connectors/vapi');
 
 const kb = require('../knowledge/knowledge-base.json');
@@ -34,6 +35,7 @@ router.post('/donor', engagement.donor);
 
 // --- Single webhook for the AI agent ---
 router.post('/webhook/claude', webhook.dispatch);
+router.post('/vapi/tool', vapiTool.handle); // adapter for Vapi voice assistant tool calls
 
 // --- Knowledge + schemas (read-only helpers) ---
 router.get('/knowledge', (_req, res) => res.json({ ok: true, knowledge: kb }));
